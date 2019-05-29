@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.header-region {
+  background: #fef0d5;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+.header-region .layout {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-region .site-name {
+  margin-left: 20px;
+}
+
+.header-region .share-calendar {
+  margin-left: auto;
+  margin-right: 40px;
+}
+
+.header-region .social-network {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.site-name {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #235c55;
+}
+
+.site-name .title {
+  font-weight: bold;
+  font-size: 33px;
+  margin-bottom: 3px;
+  margin-top: 11px;
+}
+
+.site-name .description {
+  margin-top: 0;
+  font-size: 16px;
+}
+
+.main-button {
+  background: #d81e5d;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #ffe6de;
+  padding: 5px 8px;
+  border-radius: 13px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.site-logo .image {
+  width: 95px;
+}
+
+.color-choise .lable {
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+.color-choise .dropdown {
+  padding: 5px;
+  border: 1px solid #b1afaf;
+  border-radius: 5px;
+}
+
+.single-calendar {
+  color: #4b4b4b;
+  width: 301px;
+  height: 320px;
+  margin-top: 20px;
+}
+
+.single-calendar .deletecalendar {
+  margin-right: 10px;
+}
+
+.single-calendar .addcalendar {
+  margin-left: 10px;
+}
+
+.single-calendar .calendarcontrol {
+  visibility: hidden;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.single-calendar .calendarcontrol:hover {
+  color: red;
+}
+
+.single-calendar:hover .calendarcontrol {
+  visibility: visible;
+}
+
+.single-calendar .mounth {
+  font-family: sans-serif;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.single-calendar .weekdays {
+  color: gray;
+}
+
+.single-calendar .dayname {
+  padding-bottom: 7px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.single-calendar .dayname:last-child {
+  color: red;
+}
+
+.single-calendar .daynumber {
+  padding: 15px 10px;
+  text-align: center;
+}
+
+.single-calendar .daynumber:hover {
+  background-color: #fef0d5;
+  cursor: pointer;
+}
+
+.single-calendar .daynumber:last-child {
+  color: red;
+}
+
+.single-calendar .calendar {
+  border: 1px solid #9191c7;
+  border-radius: 15px;
+  padding: 15px 10px;
+  width: 280px;
+}
+
+._conteiner {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=style.css.map */
